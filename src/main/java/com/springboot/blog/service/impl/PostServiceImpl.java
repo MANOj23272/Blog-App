@@ -26,7 +26,6 @@ public class PostServiceImpl implements PostService{
 	private ModelMapper mapper;
 //	/@Autowired
 	public PostServiceImpl(PostRepository postRepository, ModelMapper mapper) {
-		super();
 		this.postRepository = postRepository;
 		this.mapper= mapper;
 	}
