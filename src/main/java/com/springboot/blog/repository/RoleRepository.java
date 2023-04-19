@@ -8,6 +8,6 @@ import com.springboot.blog.entity.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {
 
-	Optional<Role> findByname(String name);
+	Optional<Role> findByName(String name);
 	
 }

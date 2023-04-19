@@ -23,7 +23,6 @@ public class CommentServiceImpl implements CommentService{
 	private PostRepository postRepository;
 	private ModelMapper mapper;
 	public CommentServiceImpl(CommentRepository commentRepository ,PostRepository postRepository,ModelMapper mapper) {
-		super();
 		this.commentRepository = commentRepository;
 		this.postRepository = postRepository;
 		this.mapper= mapper;
